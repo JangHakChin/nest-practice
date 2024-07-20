@@ -10,6 +10,11 @@ export class AppController {
     return this.appService.getHello();
   }
 
+  @Get()
+  getDance(): string {
+    return this.appService.getDance();
+  }
+
   @Post()
   postHell(): string {
     return 'Hi Hello';
