@@ -9,4 +9,8 @@ export class AppService {
   getDance(): string {
     return 'Hello World mansl!';
   }
+
+  summer(): string {
+    return 'Hello Summer!';
+  }
 }
