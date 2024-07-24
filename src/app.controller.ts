@@ -40,6 +40,11 @@ export class AppController {
     return this.appService.getDance();
   }
 
+  @Get()
+  grace(): string {
+    return this.appService.getDance();
+  }
+
   @Post()
   postHell(): string {
     return 'Hi Hello';
