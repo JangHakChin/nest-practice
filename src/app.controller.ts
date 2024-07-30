@@ -46,7 +46,7 @@ export class AppController {
   }
 
   @Get()
-  jesus(): string {
+  jesuss(): string {
     return this.appService.getDance();
   }
 
