@@ -52,7 +52,7 @@ export class AppController {
 
 
   @Get()
-  jesussesssssssssssssssssssssss(): string {
+  jesussessssssssssssssssssssssss(): string {
     return this.appService.getDance();
   }
 
